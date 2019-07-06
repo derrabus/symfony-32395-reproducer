@@ -1,0 +1,21 @@
+{
+    "name": "derrabus/symfony-32395-reproducer",
+    "type": "project",
+    "description": "Reproducer for symfony/symfony#32395",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander M. Turek",
+            "email": "me@derrabus.de"
+        }
+    ],
+    "require": {
+        "php": "^7.1.9",
+        "symfony/config": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rabus\\Symfony32395Reproducer\\": "src"
+        }
+    }
+}
