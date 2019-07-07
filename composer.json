@@ -10,7 +10,6 @@
         }
     ],
     "require": {
-        "php": "^7.1.9",
         "symfony/config": "^3.4"
     },
     "autoload": {
